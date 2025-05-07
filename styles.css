@@ -1,0 +1,207 @@
+/*General config*/
+*{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+body{
+    background-color:  #A8BDBF;
+    margin: 50px;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+main{
+    padding-top: 10px;
+    background-color: #F2F1F0;
+    position: relative;
+    width: 1116.64px;
+}
+
+/*navegation bar config*/
+.bar-nav{
+   
+    height: 40px;
+    padding: 5px;
+    border: 5px solid #133E62;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+} 
+.bar-nav a:hover {
+    color: #b6d86b;
+    
+}
+.bar-nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    font-size: 25px;
+    margin-top: 8px;
+}
+.bar-nav a{
+    color: #3F7373;
+}
+/*footer config*/
+footer{
+    background-color: #133E62;
+}
+footer li{
+    display: inline;
+}
+footer a{
+    color: #A8BDBF;
+}
+
+/*Home page Config*/
+#Background-Image{
+    border-radius: 60px;
+    width: 1000px;
+    max-height: 550px;
+    margin-bottom: 60px;
+}
+#Tittle-J-Home{
+    position: absolute;
+    top: 250px;
+    left: 150px;
+}
+#Tittle-J-Home h1{
+    font-size: 50px;
+}
+#Tittle-J-Home p{
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.819);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+#p-t-2{
+    max-width: 160px;
+}
+
+/*Part-1 config*/
+#Objetive{
+    background-color: #b6d86b;
+    padding: 30px;
+    
+}
+#Objetive h2{
+    margin-top: 5px;
+}
+
+/*Part-2 config*/
+#P-I {
+    width: 95%;
+}
+#P-I img{
+    width: 200px;
+    border-radius: 20px;
+}
+#P-I div{
+    display: inline-block;
+    width: 250px;
+    border: 6px solid #133E62;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 30px;
+    min-height: 515px;
+}
+
+
+/*Family Page Config*/
+#Family{
+    display: grid;
+    grid-template-columns: 150px auto ;
+   
+}
+#Family-background{
+    position: relative;
+    top: 0px;
+    width: 960px;
+    height: 100%;
+}
+#I-F-Images img{
+    width: 180px;
+    border-radius: 10px;
+    border: 5px solid #3F7373;
+}
+#I-F-Images {
+    grid-column: 2/3;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 40px;
+    position: absolute;
+    top: 120px;
+    left: 200px;
+}
+/*side bar config*/
+#Family nav {
+    grid-column: 1/2;
+}
+#Family ul{
+    display: block;
+    max-width: 150px;
+    min-height: 700px;
+    background-color:#133E62;
+    margin: 0px;
+    padding: 20px;
+}
+#Family nav a{
+    color: #F2F1F0;
+}
+#Family nav li{
+    margin-bottom: 45px;
+    padding: 5px;
+    border: 4px solid #F2F1F0;
+    border-radius: 10px;
+}
+#First-item{
+    margin-top: 45px;
+}
+/*Trips config*/
+#Trips-main section{
+    display: block;
+    margin-left: 180px;
+}
+#Trips-main img{
+    max-height: 250px;
+
+}
+#T-1{
+    background-color: #3F7373;
+    border-radius: 40px;
+    padding: 34px;
+    width: 60%;
+    height: 250px;
+    color: #f2f1f0db;
+    margin: 30px;
+}
+#T-2{
+    background-color:  #133E62;
+    border-radius: 40px;
+    padding: 34px;
+    width: 60%;
+    height: 250px;
+    color: #f2f1f0db;
+    margin: 30px;
+}
+#T-2 img{
+    float: right;
+}
+#T-1 img{
+    float: left;
+}
+#img-right{
+    float: right;
+}
+#img-clear{
+    clear: right;
+    display: block;
+}
+#Over{
+    overflow-x: auto;
+    white-space: nowrap;
+}
