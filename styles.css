@@ -130,6 +130,7 @@ footer a{
 #I-F-Images {
     grid-column: 2/3;
     display: flex;
+    align-items: flex-start;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 40px;
